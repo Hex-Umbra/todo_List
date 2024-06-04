@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btnSuppr{
+    background-image: url(images/cross.svg);
+}
+#container{
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    background : linear-gradient(90deg, purple, green)
+}
+h1{
+    color: antiquewhite;
+}
+#row {
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.2);
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+#row button{
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 3px;
+    background-color: rgb(83, 83, 241);
+    cursor: pointer;
+}
+#row input{
+    background: transparent;
+    border:none;
+    outline: none;
+    font-weight: 600;
+}
+#list-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+ul li{
+    position: relative;
+    margin: 10px;
+    margin-right: 0;
+    margin: 10px 10px;
+}
+ul li button{
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    border: 5px;
+    align-items:flex-end;
+    background-color: rgba(255, 41, 41, 0.767);
+    cursor: pointer;
+}
