@@ -47,6 +47,7 @@ h1{
     height: auto;
 }
 ul li{
+    list-style: none;
     position: relative;
     margin: 10px;
     margin-right: 0;
